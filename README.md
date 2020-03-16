@@ -1,68 +1,58 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Weather App
 
-## Available Scripts
+## Conteúdo
 
-In the project directory, you can run:
+- [Sobre](#about)
+- [Inciando o Projeto](#getting_started)
+- [Uso](#usage)
+- [Ferramentas](#tools)
 
-### `yarn start`
+## Sobre <a name = "about"></a>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Aplicação de previsão do tempo que consome a API externa [Open Weather Map](https://openweathermap.org/api). Este projeto tem propósito de ser um modo de por em prática os conhecimentos de React Hooks.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Iniciando o Projeto <a name = "getting_started"></a>
 
-### `yarn test`
+### Pré-requisitos
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Instalar uma ferramenta de git ([normal](https://git-scm.com/download/win), [git bash](https://gitforwindows.org/), [GitHub Desktop](https://desktop.github.com/))
+- Realizar um clone do projeto `git clone git@github.com:christiantld/weatherApp-react.git`
+- Navegar até a pasta do projeto
 
-### `yarn build`
+### Instalando
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Para inicializar o arquivo `package.json` e instalar todas as dependências digite os comandos abaixo
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+```
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ou se preferir
 
-### `yarn eject`
+```
+yarn install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Inicializando o projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Basta rodar o comando abaixo e uma nova aba com a aplicação irá abrir no seu navegador
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Uso <a name="usage"></a>
 
-## Learn More
+Com a aplicação aberta no seu navegador basta digitar o nome da cidade que deseja buscar a previsão do tempo, clicar `enter`e a API irá retornar com os resultados.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### TO DO
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Traduzir a resposta da API
+- Buscar a localização do usuário atraves da geolocalização do browser
+- Inserir mais opções de backgrounds que se adequem as previsões do tempo
 
-### Code Splitting
+## Ferramentas <a name = "built_using"></a>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- React com Hooks
+- Axios
+- [Open Weather Map](https://openweathermap.org/api).
